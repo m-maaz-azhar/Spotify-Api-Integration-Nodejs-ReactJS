@@ -3,8 +3,8 @@ var express = require('express');
 
 var app = express();
 
-let client_id = "b9e27a19aedb47bbabc7f67f46c14357";
-let client_secret = "d9431a7b35bd418ab6e27d2e285980c4";
+let client_id = "";
+let client_secret = "";
 
 app.get('/getToken', function (req, res) {
     console.log("request recieved")
